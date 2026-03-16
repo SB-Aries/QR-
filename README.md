@@ -1,8 +1,8 @@
-# QRGenerate - QRS 隐写术工具
+# QRS 隐写术工具
 
 ## 项目简介
 
-QRGenerate 是一个基于 QR 码的文件隐写术工具，用于将文件编码为一系列 QR 码图像，然后通过解码这些 QR 码图像来恢复原始文件。
+QRS 是一个基于 QR 码的文件隐写术工具，用于将shellcode编码为一系列 QR 码图像，然后通过解码这些 QR 码图像来恢复原始shellcode。
 
 ## 核心功能
 
@@ -55,16 +55,7 @@ QRGenerate.exe decode <input_dir>
   - `fileutils.h`：文件操作工具函数声明
   - `imageutils.h`：图像处理工具函数声明
 
-- `test/`：测试文件目录
-
-- `CMakeLists.txt`：CMake 配置文件
 - `COMPILATION.md`：编译说明文档
-
-## 性能要求
-
-- 支持 100MB 以内文件的编解码
-- 单张 QR 码生成耗时 ≤ 500ms
-- 单张 QR 码解码耗时 ≤ 1s
 
 ## 注意事项
 
